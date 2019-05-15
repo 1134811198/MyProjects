@@ -1,0 +1,1 @@
+<jsp:forward page="/BookClientServlet?methodName=getPageBooks"></jsp:forward>

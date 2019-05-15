@@ -1,0 +1,22 @@
+package com.atguigu.bookstore.dao.impl;
+
+import java.util.List;
+
+import com.atguigu.bookstore.beans.Book;
+import com.atguigu.bookstore.dao.BaseDao;
+import com.atguigu.bookstore.dao.BookDao;
+
+public class BookDaoImpl extends BaseDao<Book> implements BookDao {
+
+	
+	    BaseDao<Book> baseDao=new BookDaoImpl();
+	@Override
+	public List<Book> getBooks() {
+		String sql="select id,title,author,price, sales,stock,img_Path imgPath from books";
+		baseDao.getBeanList(sql);
+		return null;
+	}
+
+
+
+}

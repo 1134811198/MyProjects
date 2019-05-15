@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../../libs/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#submit").click(function(){
+		var username=$("#username").val();
+
+		if(username==""){
+			alert("用户名不能为空");
+			return false;
+		}
+
+		var password=$("#password").val();
+
+		if( password == ""){
+			alert("密码不能为空");
+			return false;
+		}
+	});
+
+
+});
+</script>
+
+</head>
+<body>
+<div>
+<h3>登录页面</h3>
+<form action="../LoginServlet" method="post">
+<table border="1">
+<tr>
+    <td>用户名</td>
+    <td><input type="text" name="username" id="username" /></td>
+</tr>
+<tr>
+    <td>密码</td>
+    <td><input type = "password" name="password" id="password"/></td>
+</tr>
+<tr>
+    <td colspan="2" align="center"><input type="submit" value="登陆" id="submit"/></td>
+</tr>
+</table>
+<a href="../index.html">返回首页</a>
+
+</form>
+</div>
+</body> 
+</html>

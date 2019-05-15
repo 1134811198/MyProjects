@@ -1,0 +1,5 @@
+package com.atguigu.Springss.Springmvc.beans;
+
+public class Person {
+
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.dao.EmployeeMapper">
+	
+	<!-- 配置使用二级缓存 
+		eviction:缓存的回收策略
+			LRU  – 最近最少使用的：移除最长时间不被使用的对象。
+			FIFO – 先进先出：按对象进入缓存的顺序来移除它们。
+			SOFT – 软引用：移除基于垃圾回收器状态和软引用规则的对象。
+			WEAK – 弱引用：更积极地移除基于垃圾收集器状态和弱引用规则的对象
+		flushInterval: 缓存的刷新间隔， 默认是不刷新. 
+			配置多久清空一次缓存. 
+		readOnly: 缓存的只读. 
+			true : 只读.  Mybatis认为只读对数据进行读取，不会进行修改操作，为了提升数据的获取速度，
+			                              直接将数据在内存中的引用交给用户。  效率快， 不安全. 
+			false: 非只读. Mybatis认为不仅会读取数据，还会进行修改操作， 则 通过序列化反序列的技术，
+			                              克隆一份新的数据交给用户。   效率稍慢，安全. 
+		size: 设置可以缓存的数据个数. 	                              
+		type: 设置使用的缓存实现类.  指定全类名. 	 只需要实现Cache接口即可. 	
+	
+	<cache eviction="LRU" flushInterval="60000" readOnly="false" size="1000"></cache>
+	-->
+	<!-- 指定使用的缓存类  EhCache -->
+	<cache type="org.mybatis.caches.ehcache.EhcacheCache"> </cache>
+	
+	<!-- public Employee getEmployeeById(Integer id ); -->
+	<select id="getEmployeeById" resultType="employee" useCache="true" flushCache="false">
+		<!-- select id, last_name lastName, email,gender  from tbl_employee where id = #{id} -->
+		select *  from tbl_employee where id = #{id}
+	</select>
+	
+	<!-- public void  addEmployee(Employee employee); 
+		parameterType: 参数类型。 可以省略的。  MyBatis可以根据参数自动推断类型. 
+	-->
+	<insert id="addEmployee" parameterType="com.atguigu.mybatis.beans.Employee"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into tbl_employee (last_name, email,gender ) values(#{lastName},#{email},#{gender})
+	</insert>
+	
+	<!-- public void  updateEmployee(Employee employee); -->
+	<update id="updateEmployee">
+		update tbl_employee set  
+			last_name = #{lastName},email = #{email},gender = #{gender}
+			where id = #{id}
+	 </update>
+	
+	<!-- public void  deleteEmployeeById(Integer id ); -->
+	<delete id="deleteEmployeeById" parameterType="java.lang.Integer" flushCache="true">
+		delete from tbl_employee where id = #{id}
+	</delete>
+	
+	
+	
+</mapper>

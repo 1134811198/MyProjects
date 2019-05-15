@@ -1,0 +1,16 @@
+package com.atguigu;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestMakeFriend {
+
+	@Test
+	public void testMakeFriends(){		
+		MakeFriends makeFriend = new MakeFriends();
+		String str = makeFriend.makeFriends("litingwei");
+		assertEquals("Hey,John make a friend please.",str);
+	}
+
+}

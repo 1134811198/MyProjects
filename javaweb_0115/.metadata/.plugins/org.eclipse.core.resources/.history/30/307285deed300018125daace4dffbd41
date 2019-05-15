@@ -1,0 +1,29 @@
+package com.atguigu.bookstore.servlet;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.atguigu.bookstore.beans.Book;
+import com.atguigu.bookstore.service.BookService;
+import com.atguigu.bookstore.service.impl.BookServiceImpl;
+
+/**
+ * Servlet implementation class BookManagerServlet
+ */
+public class BookManagerServlet extends BaseServlet {
+	private static final long serialVersionUID = 1L;
+
+    BookService bookService=new BookServiceImpl();
+	protected void getBooks(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		List<Book> books = bookService.getBooks();
+		request.setAttribute("books", books);
+		request.getRequestDispatcher("/pages/book_manager.jsp").forward(request, response);
+	}
+
+
+
+}

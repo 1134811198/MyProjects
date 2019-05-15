@@ -1,0 +1,5 @@
+package com.atguigu.mybatis.beans;
+
+public class Employee {
+
+}

@@ -1,0 +1,21 @@
+package com.atguigu.mybatis.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestP {
+
+	@Test
+	public void test() {
+		   List<String> warnings = new ArrayList<String>();
+		   boolean overwrite = true;
+		   File configFile = new File("generatorConfig.xml");
+		   ConfigurationParser cp = new ConfigurationParser(warnings);
+		   Configuration config = cp.parseConfiguration(configFile);
+		   DefaultShellCallback callback = new DefaultShellCallback(overwrite);
+		   MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
+		   myBatisGenerator.generate(null);
+	}
+
+}

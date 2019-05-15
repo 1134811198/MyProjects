@@ -1,0 +1,15 @@
+package com.atguigu.mybatis.dao;
+
+import com.atguigu.mybatis.beans.Employee;
+
+public interface EmployeeMapper {
+	
+    //select
+	public Employee getEmployeeById(Integer id );
+	//insert
+	public Integer  addEmployee(Employee employee);
+	//update
+	public Long  updateEmployee(Employee employee);
+	//delete
+	public Boolean  deleteEmployeeById(Integer id );
+}

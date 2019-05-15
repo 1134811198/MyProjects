@@ -1,0 +1,54 @@
+package com.atguigu.bookstore.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.atguigu.bookstore.beans.User;
+import com.atguigu.bookstore.dao.UserDao;
+import com.atguigu.bookstore.dao.impl.UserDaoImpl;
+import com.atguigu.bookstore.service.UserService;
+import com.atguigu.bookstore.service.impl.UserServiceImpl;
+
+/**
+ * 处理用户注册的Servlet
+ */
+public class RegistServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private UserService userService = new UserServiceImpl();
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		//获取用户名、密码、邮箱
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		String email = request.getParameter("email");
+		//封装User对象
+		User user = new User(null, username, password, email);
+		//创建UserDao对象
+//		UserDao userDao = new UserDaoImpl();
+		//调用UserDao中验证用户名的方法
+//		boolean flag = userDao.checkUsername(user);
+		//调用UserService中处理用户注册的方法
+		boolean flag = userService.regist(user);
+		if(!flag) {
+			//用户名已存在，转发到注册页面
+			request.getRequestDispatcher("/pages/user/regist.html").forward(request, response);
+		}else {
+			//用户名可用，将User对象保存到数据库中
+			userService.saveUser(user);
+			//重定向到注册成功页面
+			response.sendRedirect(request.getContextPath()+"/pages/user/regist_success.html");
+		}
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student id="1">
+		<name>李白</name>
+		<age>1568</age>
+		<gender>男</gender>
+		<address>长安</address>
+	</student>
+	<student id="2">
+		<name>许仙</name>
+		<age>30</age>
+		<gender>男</gender>
+		<address>杭州西湖</address>
+	</student>
+	<student id="3">
+		<name>法海</name>
+		<age>3500</age>
+		<gender>男</gender>
+		<address>雷峰塔</address>
+	</student>
+	<student id="4">
+		<name>白素贞</name>
+		<age>2000</age>
+		<gender>母蛇</gender>
+		<address>峨眉山</address>
+	</student>
+	<student id="5">
+		<name>小青</name>
+		<age>1500</age>
+		<gender>女</gender>
+		<address>峨眉山</address>
+	</student>
+	<![CDATA[
+		select * from employees where id < 10;
+	]]>
+</students>

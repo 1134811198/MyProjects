@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+  <!-- 
+  	context： 全局上下文的配置
+  		targetRuntime: 
+  			MyBatis3 :   生成带条件的CRUD
+  			MyBatis3Simple:  生成基本的CRUD 
+   -->
+  <context id="DB2Tables" targetRuntime="MyBatis3">
+  	<!-- 
+  		数据库的连接环境
+  	 -->
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        connectionURL="jdbc:mysql://localhost:3306/javaee_0115"
+        userId="root"
+        password="0329">
+    </jdbcConnection>
+	<!-- 
+		javaBean的生成策略
+	 -->
+    <javaModelGenerator targetPackage="com.atguigu.mybatis.beans" targetProject=".\src">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+	
+	<!-- 
+		SQL映射文件的生成策略
+		
+	 -->
+    <sqlMapGenerator targetPackage="com.atguigu.mybatis.dao"  targetProject=".\conf">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+	
+	<!-- 
+		Mapper接口的生成策略
+	 -->
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.atguigu.mybatis.dao"  targetProject=".\src">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+	
+	<!-- 逆向分析的表 -->
+   	<table tableName="tbl_dept" domainObjectName="Department"></table>
+	<table tableName="tbl_employee" domainObjectName="Employee"></table>
+  </context>
+</generatorConfiguration>

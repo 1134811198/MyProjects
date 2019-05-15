@@ -1,0 +1,13 @@
+package com.atguigu.bookstore.service;
+
+import java.util.List;
+
+import com.atguigu.bookstore.beans.Book;
+
+public interface BookService {
+	
+List<Book> getBooks();
+public void saveBook(Book book) {
+    bookDao.saveBook(book); 
+}
+}

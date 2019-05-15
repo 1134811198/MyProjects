@@ -1,0 +1,11 @@
+package com.atguigu.mybatis.Dao;
+
+import com.atguigu.mybatis.beans.Employee;
+
+public interface EmployeeMapper {
+	
+	public Employee getEmployeeById(Integer id);
+	public void deleteEmployeeById(Integer id);
+	public Integer updateEmployeeById(Employee employee);
+
+}

@@ -1,0 +1,859 @@
+
+4月 27, 2018 18:56:03.44 NEW SESSION
+4月 27, 2018 18:56:03.44 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 18:57:04.86 1524826624864	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 18:58:03.66 1524826683662	addons.repository	WARN	Search failed when repopulating cache
+4月 27, 2018 18:58:15.85 1524826695853	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:15.88 1524826695858	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:15.89 1524826695864	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:15.90 1524826695869	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:15.91 1524826695874	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:15.91 1524826695876	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:15.92 1524826695879	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:16.00 1524826695880	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:16.00 1524826695881	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 18:58:16.01 1524826695885	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:16.01 1524826695887	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 18:58:16.02 1524826695892	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:16.02 1524826695893	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 18:58:16.03 1524826695897	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 18:58:16.04 1524826695899	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 27, 2018 19:19:26.64 console.error: commonfix: 
+4月 27, 2018 19:19:26.64   Message: ReferenceError: reason is not defined
+4月 27, 2018 19:19:26.65   Stack:
+4月 27, 2018 19:19:26.66     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 19:19:26.67 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 19:19:26.67 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 19:19:26.68 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 19:19:26.69 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 19:19:26.69 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 19:19:26.81 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 19:19:26.81 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 19:19:26.82 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 19:19:26.85 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 19:19:26.85 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 19:19:26.86 
+4月 27, 2018 19:19:48.89 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 19:20:17.84 console.error: commonfix: 
+4月 27, 2018 19:20:17.85   Message: ReferenceError: reason is not defined
+4月 27, 2018 19:20:17.85   Stack:
+4月 27, 2018 19:20:17.86     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 19:20:17.86 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 19:20:17.87 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 19:20:17.87 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 19:20:17.88 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 19:20:17.88 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 19:20:17.89 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 19:20:17.89 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 19:20:17.89 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 19:20:17.90 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 19:20:17.91 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 19:20:17.91 
+4月 27, 2018 19:21:40.69 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 19:21:59.73 console.error: commonfix: 
+4月 27, 2018 19:21:59.74   Message: ReferenceError: reason is not defined
+4月 27, 2018 19:21:59.74   Stack:
+4月 27, 2018 19:21:59.75     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 19:21:59.75 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 19:21:59.76 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 19:21:59.76 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 19:21:59.77 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 19:21:59.77 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 19:21:59.78 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 19:21:59.78 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 19:21:59.79 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 19:21:59.79 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 19:21:59.80 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 19:21:59.80 
+4月 27, 2018 19:22:22.29 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 19:23:24.17 1524828204170	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 19:23:45.10 console.error: commonfix: 
+4月 27, 2018 19:23:45.11   Message: ReferenceError: reason is not defined
+4月 27, 2018 19:23:45.11   Stack:
+4月 27, 2018 19:23:45.12     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 19:23:45.13 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 19:23:45.14 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 19:23:45.15 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 19:23:45.16 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 19:23:45.16 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 19:23:45.17 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 19:23:45.18 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 19:23:45.19 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 19:23:45.20 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 19:23:45.20 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 19:23:45.21 
+
+4月 27, 2018 19:27:20.53 NEW SESSION
+4月 27, 2018 19:27:20.53 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 19:28:34.13 1524828514134	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 19:32:27.71 console.error: commonfix: 
+4月 27, 2018 19:32:27.72   Message: ReferenceError: reason is not defined
+4月 27, 2018 19:32:27.73   Stack:
+4月 27, 2018 19:32:27.74     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 19:32:27.75 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 19:32:27.75 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 19:32:27.76 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 19:32:27.77 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 19:32:27.78 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 19:32:27.79 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 19:32:27.80 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 19:32:27.80 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 19:32:27.81 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 19:32:27.82 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 19:32:27.82 
+4月 27, 2018 19:33:45.52 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 19:34:48.00 1524828888006	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 19:36:38.57 console.error: commonfix: 
+4月 27, 2018 19:36:38.58   Message: ReferenceError: reason is not defined
+4月 27, 2018 19:36:38.59   Stack:
+4月 27, 2018 19:36:38.59     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 19:36:38.60 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 19:36:38.61 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 19:36:38.62 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 19:36:38.63 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 19:36:38.64 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 19:36:38.65 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 19:36:38.65 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 19:36:38.66 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 19:36:38.68 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 19:36:38.69 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 19:36:38.70 
+4月 27, 2018 19:37:10.99 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 19:37:30.57 console.error: commonfix: 
+4月 27, 2018 19:37:30.58   Message: ReferenceError: reason is not defined
+4月 27, 2018 19:37:30.58   Stack:
+4月 27, 2018 19:37:30.59     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 19:37:30.59 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 19:37:30.60 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 19:37:30.60 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 19:37:30.61 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 19:37:30.61 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 19:37:30.62 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 19:37:30.62 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 19:37:30.63 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 19:37:30.63 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 19:37:30.64 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 19:37:30.64 
+4月 27, 2018 19:55:24.49 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 19:56:26.19 1524830186191	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 20:04:00.01 console.error: commonfix: 
+4月 27, 2018 20:04:00.02   Message: ReferenceError: reason is not defined
+4月 27, 2018 20:04:00.02   Stack:
+4月 27, 2018 20:04:00.03     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 20:04:00.04 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 20:04:00.04 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 20:04:00.05 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 20:04:00.06 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 20:04:00.07 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 20:04:00.08 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 20:04:00.08 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 20:04:00.09 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 20:04:00.10 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 20:04:00.10 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 20:04:00.11 
+4月 27, 2018 20:04:45.36 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 20:04:54.84 console.error: commonfix: 
+4月 27, 2018 20:04:54.84   Message: ReferenceError: reason is not defined
+4月 27, 2018 20:04:54.85   Stack:
+4月 27, 2018 20:04:54.85     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 20:04:54.86 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 20:04:54.87 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 20:04:54.87 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 20:04:54.88 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 20:04:54.88 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 20:04:54.89 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 20:04:54.89 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 20:04:54.90 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 20:04:54.91 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 20:04:54.91 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 20:04:54.92 
+4月 27, 2018 20:33:28.93 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 20:34:42.49 1524832482497	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 20:41:12.52 console.error: commonfix: 
+4月 27, 2018 20:41:12.53   Message: ReferenceError: reason is not defined
+4月 27, 2018 20:41:12.54   Stack:
+4月 27, 2018 20:41:12.54     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 20:41:12.55 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 20:41:12.56 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 20:41:12.57 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 20:41:12.57 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 20:41:12.58 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 20:41:12.59 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 20:41:12.60 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 20:41:12.61 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 20:41:12.61 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 20:41:12.62 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 20:41:12.62 
+4月 27, 2018 20:41:45.96 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 20:42:59.51 1524832979516	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 21:53:15.66 console.error: commonfix: 
+4月 27, 2018 21:53:15.72   Message: ReferenceError: reason is not defined
+4月 27, 2018 21:53:15.74   Stack:
+4月 27, 2018 21:53:15.75     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 21:53:15.76 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 21:53:15.77 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 21:53:15.78 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 21:53:15.78 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 21:53:15.79 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 21:53:15.79 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 21:53:15.80 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 21:53:15.81 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 21:53:15.81 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 21:53:15.82 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 21:53:15.82 
+4月 27, 2018 21:53:39.43 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 21:54:55.61 1524837295615	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 27, 2018 22:01:24.78 console.error: commonfix: 
+4月 27, 2018 22:01:24.82   Message: ReferenceError: reason is not defined
+4月 27, 2018 22:01:24.83   Stack:
+4月 27, 2018 22:01:24.84     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 27, 2018 22:01:24.85 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 27, 2018 22:01:24.85 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 27, 2018 22:01:24.86 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 27, 2018 22:01:24.87 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 27, 2018 22:01:24.87 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 27, 2018 22:01:24.88 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 27, 2018 22:01:24.88 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 27, 2018 22:01:24.89 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 27, 2018 22:01:24.89 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 27, 2018 22:01:24.90 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 27, 2018 22:01:24.90 
+4月 27, 2018 22:01:40.57 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 27, 2018 22:02:42.01 1524837762014	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 08:16:02.23 console.error: commonfix: 
+4月 28, 2018 08:16:02.24   Message: ReferenceError: reason is not defined
+4月 28, 2018 08:16:02.24   Stack:
+4月 28, 2018 08:16:02.25     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 08:16:02.26 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 08:16:02.27 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 08:16:02.27 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 08:16:02.28 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 08:16:02.29 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 08:16:02.29 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 08:16:02.30 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 08:16:02.31 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 08:16:02.31 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 08:16:02.32 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 08:16:02.33 
+4月 28, 2018 08:16:55.77 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 08:17:57.70 1524874677708	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 08:21:55.08 console.error: commonfix: 
+4月 28, 2018 08:21:55.15   Message: ReferenceError: reason is not defined
+4月 28, 2018 08:21:55.15   Stack:
+4月 28, 2018 08:21:55.16     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 08:21:55.16 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 08:21:55.17 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 08:21:55.18 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 08:21:55.18 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 08:21:55.19 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 08:21:55.19 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 08:21:55.20 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 08:21:55.20 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 08:21:55.21 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 08:21:55.22 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 08:21:55.23 
+4月 28, 2018 08:23:39.98 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 08:24:41.65 1524875081651	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 08:38:29.07 console.error: commonfix: 
+4月 28, 2018 08:38:29.13   Message: ReferenceError: reason is not defined
+4月 28, 2018 08:38:29.14   Stack:
+4月 28, 2018 08:38:29.14     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 08:38:29.15 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 08:38:29.15 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 08:38:29.16 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 08:38:29.16 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 08:38:29.17 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 08:38:29.17 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 08:38:29.18 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 08:38:29.18 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 08:38:29.19 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 08:38:29.19 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 08:38:29.20 
+4月 28, 2018 08:38:57.33 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 08:39:59.64 1524875999646	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 08:46:22.72 console.error: commonfix: 
+4月 28, 2018 08:46:22.73   Message: ReferenceError: reason is not defined
+4月 28, 2018 08:46:22.74   Stack:
+4月 28, 2018 08:46:22.74     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 08:46:22.75 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 08:46:22.76 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 08:46:22.76 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 08:46:22.77 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 08:46:22.78 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 08:46:22.79 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 08:46:22.80 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 08:46:22.81 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 08:46:22.81 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 08:46:22.82 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 08:46:22.82 
+4月 28, 2018 08:47:03.87 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 08:48:17.29 1524876497296	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 08:56:58.37 console.error: commonfix: 
+4月 28, 2018 08:56:58.43   Message: ReferenceError: reason is not defined
+4月 28, 2018 08:56:58.43   Stack:
+4月 28, 2018 08:56:58.44     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 08:56:58.45 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 08:56:58.45 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 08:56:58.46 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 08:56:58.46 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 08:56:58.47 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 08:56:58.47 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 08:56:58.48 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 08:56:58.49 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 08:56:58.49 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 08:56:58.50 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 08:56:58.51 
+
+4月 28, 2018 18:17:33.95 NEW SESSION
+4月 28, 2018 18:17:33.95 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 18:19:06.03 1524910746029	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 18:28:38.40 console.error: commonfix: 
+4月 28, 2018 18:28:38.42   Message: ReferenceError: reason is not defined
+4月 28, 2018 18:28:38.43   Stack:
+4月 28, 2018 18:28:38.43     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 18:28:38.44 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 18:28:38.44 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 18:28:38.45 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 18:28:38.45 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 18:28:38.46 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 18:28:38.47 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 18:28:38.47 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 18:28:38.48 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 18:28:38.48 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 18:28:38.49 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 18:28:38.49 
+4月 28, 2018 18:28:56.16 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 18:29:58.57 1524911398575	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 18:35:03.42 console.error: commonfix: 
+4月 28, 2018 18:35:03.46   Message: ReferenceError: reason is not defined
+4月 28, 2018 18:35:03.47   Stack:
+4月 28, 2018 18:35:03.48     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 18:35:03.49 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 18:35:03.49 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 18:35:03.50 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 18:35:03.51 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 18:35:03.52 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 18:35:03.54 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 18:35:03.54 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 18:35:03.55 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 18:35:03.56 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 18:35:03.57 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 18:35:03.58 
+4月 28, 2018 18:53:34.95 [2904:1280:0428/185334.949:ERROR:gpu_process_transport_factory.cc(925)] Lost UI shared context.
+4月 28, 2018 18:58:15.84 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 18:59:19.24 1524913159247	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 19:00:28.54 1524913228546	addons.repository	WARN	Search failed when repopulating cache
+4月 28, 2018 19:00:28.72 1524913228729	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.73 1524913228730	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.74 1524913228731	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.74 1524913228732	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.75 1524913228733	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.75 1524913228733	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.76 1524913228734	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.76 1524913228735	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.77 1524913228736	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.77 1524913228737	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.78 1524913228746	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.78 1524913228747	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 28, 2018 19:00:28.79 1524913228747	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 19:00:28.81 1524913228748	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 19:00:28.82 1524913228749	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 28, 2018 20:43:56.08 console.error: commonfix: 
+4月 28, 2018 20:43:56.17   Message: ReferenceError: reason is not defined
+4月 28, 2018 20:43:56.19   Stack:
+4月 28, 2018 20:43:56.20     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 28, 2018 20:43:56.20 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 28, 2018 20:43:56.21 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 28, 2018 20:43:56.21 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 28, 2018 20:43:56.22 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 28, 2018 20:43:56.22 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 28, 2018 20:43:56.23 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 28, 2018 20:43:56.23 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 28, 2018 20:43:56.24 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 28, 2018 20:43:56.25 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 28, 2018 20:43:56.26 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 28, 2018 20:43:56.26 
+4月 28, 2018 20:44:28.66 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 28, 2018 20:45:31.50 1524919531501	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 29, 2018 08:39:57.47 console.error: commonfix: 
+4月 29, 2018 08:39:57.61   Message: ReferenceError: reason is not defined
+4月 29, 2018 08:39:57.62   Stack:
+4月 29, 2018 08:39:57.62     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 29, 2018 08:39:57.63 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 29, 2018 08:39:57.64 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 29, 2018 08:39:57.64 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 29, 2018 08:39:57.65 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 29, 2018 08:39:57.65 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 29, 2018 08:39:57.66 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 29, 2018 08:39:57.66 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 29, 2018 08:39:57.67 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 29, 2018 08:39:57.68 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 29, 2018 08:39:57.68 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 29, 2018 08:39:57.69 
+4月 29, 2018 08:40:17.09 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 29, 2018 08:41:31.37 1524962491377	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 29, 2018 09:25:39.14 console.error: 
+4月 29, 2018 09:25:39.20   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:39.22   Stack:
+4月 29, 2018 09:25:39.23     StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:39.24 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:39.25 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:39.26 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:39.27 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:39.28 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:39.29 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:39.29 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.30 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.31 
+4月 29, 2018 09:25:39.32 StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:39.32 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:39.33 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:39.34 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:39.34 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:39.35 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:39.35 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:39.36 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.37 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.37 console.error: 
+4月 29, 2018 09:25:39.38   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:39.39   Stack:
+4月 29, 2018 09:25:39.39     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:39.40 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:39.41 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:39.42 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:39.42 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:39.43 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:39.43 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.44 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.44 
+4月 29, 2018 09:25:39.45 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:39.46 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:39.46 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:39.47 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:39.47 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:39.48 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:39.48 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.52 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.53 console.error: 
+4月 29, 2018 09:25:39.54   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:39.54   Stack:
+4月 29, 2018 09:25:39.55     StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:39.56 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:39.56 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:39.57 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:39.58 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:39.93 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:39.95 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:39.97 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.98 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:39.99 
+4月 29, 2018 09:25:40.00 StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:40.01 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:40.02 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:40.03 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:40.04 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.05 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.06 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.08 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.09 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.10 console.error: 
+4月 29, 2018 09:25:40.11   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:40.11   Stack:
+4月 29, 2018 09:25:40.12     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.13 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.13 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.14 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.14 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.14 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.15 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.15 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.16 
+4月 29, 2018 09:25:40.16 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.17 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.17 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.18 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.18 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.19 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.19 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.20 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.20 console.error: 
+4月 29, 2018 09:25:40.21   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:40.21   Stack:
+4月 29, 2018 09:25:40.22     StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:40.22 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:40.23 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:40.24 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:40.24 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.25 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.26 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.26 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.27 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.27 
+4月 29, 2018 09:25:40.28 StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:40.28 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:40.30 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:40.31 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:40.31 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.32 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.32 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.33 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.33 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.34 console.error: 
+4月 29, 2018 09:25:40.34   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:40.35   Stack:
+4月 29, 2018 09:25:40.35     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.36 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.36 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.37 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.37 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.38 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.38 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.38 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.39 
+4月 29, 2018 09:25:40.39 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.40 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.40 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.41 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.41 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.42 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.42 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.43 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.43 console.error: 
+4月 29, 2018 09:25:40.44   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:40.45   Stack:
+4月 29, 2018 09:25:40.46     StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:40.47 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:40.47 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:40.48 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:40.49 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.49 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.51 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.51 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.52 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.52 
+4月 29, 2018 09:25:40.53 StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:40.53 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:40.54 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:40.54 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:40.54 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.55 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.56 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.56 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.57 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.57 console.error: 
+4月 29, 2018 09:25:40.57   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:40.58   Stack:
+4月 29, 2018 09:25:40.58     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.59 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.59 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.60 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.60 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.61 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.61 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.62 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.62 
+4月 29, 2018 09:25:40.62 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.63 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.63 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.64 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.64 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.65 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.65 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.66 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.66 console.error: 
+4月 29, 2018 09:25:40.67   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:40.68   Stack:
+4月 29, 2018 09:25:40.68     StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:40.69 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:40.69 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:40.70 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:40.70 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.71 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.71 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.72 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.72 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.73 
+4月 29, 2018 09:25:40.73 StyleSheetActor<.ownerNode@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:441:5
+4月 29, 2018 09:25:40.74 StyleSheetActor<.getCSSRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:544:9
+4月 29, 2018 09:25:40.74 StyleSheetActor<._getMediaRules@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:882:12
+4月 29, 2018 09:25:40.78 StyleSheetActor<.getMediaRules<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:867:12
+4月 29, 2018 09:25:40.79 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.80 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.80 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.85 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.85 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.86 console.error: 
+4月 29, 2018 09:25:40.86   Message: TypeError: can't access dead object
+4月 29, 2018 09:25:40.87   Stack:
+4月 29, 2018 09:25:40.88     StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.88 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.89 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.89 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.90 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.90 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.91 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.91 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.92 
+4月 29, 2018 09:25:40.93 StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:448:5
+4月 29, 2018 09:25:40.93 StyleSheetActor<._getText@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:669:9
+4月 29, 2018 09:25:40.94 StyleSheetActor<.getText<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/stylesheets.js:642:12
+4月 29, 2018 09:25:40.95 actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/protocol.js:1013:19
+4月 29, 2018 09:25:40.95 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 29, 2018 09:25:40.96 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 29, 2018 09:25:40.96 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:25:40.97 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 29, 2018 09:32:08.56 console.error: commonfix: 
+4月 29, 2018 09:32:08.63   Message: ReferenceError: reason is not defined
+4月 29, 2018 09:32:08.63   Stack:
+4月 29, 2018 09:32:08.65     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 29, 2018 09:32:08.66 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 29, 2018 09:32:08.66 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 29, 2018 09:32:08.67 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 29, 2018 09:32:08.67 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 29, 2018 09:32:08.68 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 29, 2018 09:32:08.68 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 29, 2018 09:32:08.68 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 29, 2018 09:32:08.69 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 29, 2018 09:32:08.69 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 29, 2018 09:32:08.70 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 29, 2018 09:32:08.71 
+4月 29, 2018 09:34:31.36 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 29, 2018 09:35:33.19 1524965733197	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 29, 2018 13:41:43.26 console.error: commonfix: 
+4月 29, 2018 13:41:43.49   Message: ReferenceError: reason is not defined
+4月 29, 2018 13:41:43.51   Stack:
+4月 29, 2018 13:41:43.51     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 29, 2018 13:41:43.52 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 29, 2018 13:41:43.53 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 29, 2018 13:41:43.53 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 29, 2018 13:41:43.54 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 29, 2018 13:41:43.55 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 29, 2018 13:41:43.55 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 29, 2018 13:41:43.56 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 29, 2018 13:41:43.57 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 29, 2018 13:41:43.57 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 29, 2018 13:41:43.58 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 29, 2018 13:41:43.58 
+4月 29, 2018 13:42:10.73 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 29, 2018 13:43:27.48 1524980607485	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+4月 30, 2018 16:50:15.68 NEW SESSION
+4月 30, 2018 16:50:15.68 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 16:51:24.57 1525078284576	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 16:54:16.93 1525078456939	addons.repository	WARN	Search failed when repopulating cache
+4月 30, 2018 16:54:17.22 1525078457227	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.23 1525078457228	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.23 1525078457230	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.24 1525078457231	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.24 1525078457231	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.25 1525078457232	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.25 1525078457233	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.26 1525078457234	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.26 1525078457235	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.27 1525078457236	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.27 1525078457237	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 16:54:17.28 1525078457238	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.28 1525078457240	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+4月 30, 2018 16:54:17.29 1525078457240	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 16:54:17.29 1525078457241	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 17:16:25.13 Error: attempt to remove unsaved breakpoint: _removeOrDisableBreakpoint/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/debugger/content/actions/breakpoints.js:101:13
+4月 30, 2018 17:16:25.39 thunk/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/redux/middleware/thunk.js:15:9
+4月 30, 2018 17:16:25.41 task/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/redux/middleware/task.js:31:12
+4月 30, 2018 17:16:25.43 DebuggerView._initializeEditor/<@chrome://devtools/content/debugger/debugger-view.js:333:13
+4月 30, 2018 17:16:25.44 EventEmitter_emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js:147:11
+4月 30, 2018 17:16:25.45 Editor.prototype.appendTo/onLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/sourceeditor/editor.js:424:9
+4月 30, 2018 17:16:25.46 CodeMirror.signal@chrome://devtools/content/sourceeditor/codemirror/lib/codemirror.js:8181:47
+4月 30, 2018 17:16:25.47 gutterEvent@chrome://devtools/content/sourceeditor/codemirror/lib/codemirror.js:3827:9
+4月 30, 2018 17:16:25.47 clickInGutter@chrome://devtools/content/sourceeditor/codemirror/lib/codemirror.js:3834:12
+4月 30, 2018 17:16:25.47 onMouseDown@chrome://devtools/content/sourceeditor/codemirror/lib/codemirror.js:3581:9
+4月 30, 2018 17:16:25.48 operation/<@chrome://devtools/content/sourceeditor/codemirror/lib/codemirror.js:3186:20
+4月 30, 2018 17:16:25.48 EventLoop.prototype.enter@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/script.js:348:5
+4月 30, 2018 17:16:25.49 ThreadActor.prototype._pushThreadPause@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/script.js:542:5
+4月 30, 2018 17:16:25.49 ThreadActor.prototype.onInterrupt@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/script.js:1402:7
+4月 30, 2018 17:16:25.50 DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1643:15
+4月 30, 2018 17:16:25.51 LocalDebuggerTransport.prototype.send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:569:11
+4月 30, 2018 17:16:25.51 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 30, 2018 17:16:25.52 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 30, 2018 17:16:25.52 
+4月 30, 2018 17:44:04.68 console.error: commonfix: 
+4月 30, 2018 17:44:04.97   Message: ReferenceError: reason is not defined
+4月 30, 2018 17:44:04.99   Stack:
+4月 30, 2018 17:44:05.01     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 17:44:05.02 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 17:44:05.03 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 17:44:05.04 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 17:44:05.04 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 17:44:05.05 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 17:44:05.05 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 17:44:05.06 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 17:44:05.07 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 17:44:05.07 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 17:44:05.08 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 17:44:05.08 
+4月 30, 2018 17:44:56.41 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 17:45:59.01 1525081559019	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 17:50:34.57 console.error: commonfix: 
+4月 30, 2018 17:50:34.57   Message: ReferenceError: reason is not defined
+4月 30, 2018 17:50:34.58   Stack:
+4月 30, 2018 17:50:34.59     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 17:50:34.60 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 17:50:34.61 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 17:50:34.62 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 17:50:34.62 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 17:50:34.63 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 17:50:34.64 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 17:50:34.65 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 17:50:34.65 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 17:50:34.66 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 17:50:34.66 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 17:50:34.67 
+4月 30, 2018 17:51:54.88 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 17:52:56.43 1525081976435	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 18:25:17.43 console.error: commonfix: 
+4月 30, 2018 18:25:17.60   Message: ReferenceError: reason is not defined
+4月 30, 2018 18:25:17.61   Stack:
+4月 30, 2018 18:25:17.62     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 18:25:17.62 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 18:25:17.63 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 18:25:17.63 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 18:25:17.64 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 18:25:17.65 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 18:25:17.65 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 18:25:17.66 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 18:25:17.67 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 18:25:17.67 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 18:25:17.68 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 18:25:17.68 
+4月 30, 2018 18:25:35.75 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 18:26:38.01 1525083998011	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 18:29:32.90 console.error: commonfix: 
+4月 30, 2018 18:29:32.92   Message: ReferenceError: reason is not defined
+4月 30, 2018 18:29:32.93   Stack:
+4月 30, 2018 18:29:32.94     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 18:29:32.95 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 18:29:32.95 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 18:29:32.96 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 18:29:32.97 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 18:29:32.97 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 18:29:32.98 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 18:29:32.99 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 18:29:33.00 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 18:29:33.00 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 18:29:33.01 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 18:29:33.02 
+4月 30, 2018 18:29:55.99 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 18:30:57.43 1525084257437	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 18:41:59.71 console.error: commonfix: 
+4月 30, 2018 18:41:59.86   Message: ReferenceError: reason is not defined
+4月 30, 2018 18:41:59.87   Stack:
+4月 30, 2018 18:41:59.88     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 18:41:59.89 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 18:41:59.90 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 18:41:59.90 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 18:41:59.91 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 18:41:59.91 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 18:41:59.92 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 18:41:59.92 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 18:41:59.93 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 18:41:59.94 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 18:41:59.94 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 18:41:59.95 
+4月 30, 2018 18:45:34.25 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 18:45:46.68 console.error: commonfix: 
+4月 30, 2018 18:45:46.68   Message: ReferenceError: reason is not defined
+4月 30, 2018 18:45:46.69   Stack:
+4月 30, 2018 18:45:46.69     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 18:45:46.70 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 18:45:46.70 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 18:45:46.71 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 18:45:46.71 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 18:45:46.72 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 18:45:46.73 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 18:45:46.73 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 18:45:46.74 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 18:45:46.74 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 18:45:46.75 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 18:45:46.76 
+4月 30, 2018 19:06:18.90 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 19:07:20.31 1525086440310	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 19:22:10.01 console.error: commonfix: 
+4月 30, 2018 19:22:10.19   Message: ReferenceError: reason is not defined
+4月 30, 2018 19:22:10.19   Stack:
+4月 30, 2018 19:22:10.20     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 19:22:10.21 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 19:22:10.21 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 19:22:10.22 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 19:22:10.23 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 19:22:10.23 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 19:22:10.24 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 19:22:10.24 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 19:22:10.25 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 19:22:10.26 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 19:22:10.26 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 19:22:10.27 
+4月 30, 2018 19:22:29.29 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 19:23:30.91 1525087410916	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 19:27:21.33 console.error: commonfix: 
+4月 30, 2018 19:27:21.34   Message: ReferenceError: reason is not defined
+4月 30, 2018 19:27:21.35   Stack:
+4月 30, 2018 19:27:21.36     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 19:27:21.37 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 19:27:21.37 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 19:27:21.38 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 19:27:21.39 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 19:27:21.40 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 19:27:21.41 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 19:27:21.41 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 19:27:21.42 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 19:27:21.43 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 19:27:21.44 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 19:27:21.44 
+4月 30, 2018 19:31:09.19 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 19:32:10.64 1525087930644	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 19:36:41.72 console.error: commonfix: 
+4月 30, 2018 19:36:41.84   Message: ReferenceError: reason is not defined
+4月 30, 2018 19:36:41.84   Stack:
+4月 30, 2018 19:36:41.85     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+4月 30, 2018 19:36:41.86 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+4月 30, 2018 19:36:41.86 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+4月 30, 2018 19:36:41.87 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+4月 30, 2018 19:36:41.87 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+4月 30, 2018 19:36:41.88 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+4月 30, 2018 19:36:41.89 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+4月 30, 2018 19:36:41.90 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+4月 30, 2018 19:36:41.91 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+4月 30, 2018 19:36:41.91 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+4月 30, 2018 19:36:41.92 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+4月 30, 2018 19:36:41.93 
+4月 30, 2018 19:36:58.63 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+4月 30, 2018 19:38:00.01 1525088280009	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+4月 30, 2018 21:11:18.67 Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+4月 30, 2018 21:11:18.80 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1391:5
+4月 30, 2018 21:11:18.81 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webconsole.js:2127:5
+4月 30, 2018 21:11:18.82 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:267:5
+4月 30, 2018 21:11:18.83 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 30, 2018 21:11:18.86 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:219:5
+4月 30, 2018 21:11:18.87 Line: 1391, column: 5
+4月 30, 2018 21:11:18.88 console.error: 
+4月 30, 2018 21:11:18.89   Handler function NRL_getSecurityInfo threw an exception: TypeError: this.transport is null
+4月 30, 2018 21:11:18.92 Stack: DSC_send@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1391:5
+4月 30, 2018 21:11:18.93 NEA_addSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webconsole.js:2127:5
+4月 30, 2018 21:11:18.94 NRL_getSecurityInfo@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:267:5
+4月 30, 2018 21:11:18.94 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+4月 30, 2018 21:11:18.95 NRL_onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:219:5
+4月 30, 2018 21:11:18.96 Line: 1391, column: 5
+5月 01, 2018 09:01:47.15 console.error: commonfix: 
+5月 01, 2018 09:01:47.31   Message: ReferenceError: reason is not defined
+5月 01, 2018 09:01:47.33   Stack:
+5月 01, 2018 09:01:47.35     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/lib/main.js:316:1
+5月 01, 2018 09:01:47.36 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 01, 2018 09:01:47.37 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 01, 2018 09:01:47.38 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 01, 2018 09:01:47.39 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 01, 2018 09:01:47.40 unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+5月 01, 2018 09:01:47.41 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:153:9
+5月 01, 2018 09:01:47.41 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:149:12
+5月 01, 2018 09:01:47.42 shutdown@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/addon/bootstrap.js:146:12
+5月 01, 2018 09:01:47.42 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+5月 01, 2018 09:01:47.43 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+5月 01, 2018 09:01:47.44 

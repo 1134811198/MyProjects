@@ -1,0 +1,19 @@
+package com.atguigu.aop.before_proxy;
+
+public class Main {
+	public static void main(String[] args) {
+		//目标对象
+		ArithmeticCalculator target = new ArithmeticCalculatorImpl();
+		
+		//代理对象
+		Object  obj = new ArithmeticCalculatorProxy(target).getProxy();
+		
+		ArithmeticCalculator proxy = (ArithmeticCalculator)obj ;
+		
+		
+		//所有对目标对象方法的调用都要通过代理对象.
+		int result =proxy.sub(1, 1);  // 回去调用InvocationHandler中的invoke方法
+		
+		System.out.println("result: "  + result );
+	}
+}

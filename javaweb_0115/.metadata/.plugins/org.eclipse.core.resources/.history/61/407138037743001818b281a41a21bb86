@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.atguigu.mybatis.dao.EmployeeMapperResultMap">
+  <!-- public Employee  getEmployeeAndDept(Integer id ); -->
+  <select id="getEmployeeAndDept" resultMap="myEmpAndDept">
+		SELECT e.id eid, e.last_name, e.email,e.gender, d.id did, d.dept_name 
+		FROM tbl_employee e  , tbl_dept d 
+		WHERE e.d_id = d.id  AND  e.id = #{id}
+  </select>
+  <!--      eid  last_name  email         gender     did  department_name  
+
+             4    hui2       hui2@126.com   0         4      266    -->
+  <resultMap type="com.atguigu.mybatis.beans.Employee" id="myEmpAndDept">
+    <id column="eid" property="id" />
+    <result column="last_name" property="lastName"/>
+    <result column="email" property="email"/>
+    <result column="gender" property="gender"/>
+    <result column="did" property="dept.id"/>
+    <result column="department_name" property="departmentName"/>
+  
+  </resultMap>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </mapper>

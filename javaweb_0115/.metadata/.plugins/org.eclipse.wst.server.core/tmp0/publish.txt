@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Sat Apr 21 19:53:24 CST 2018
+org.eclipse.jst.jee.server\:/binary\:F\:\\workspace\\javaweb_0115\\Spring06_exec_01\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:F\:\\workspace\\javaweb_0115\\Springmvc03\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:F\:\\workspace\\javaweb_0115\\Spring07_exec_1\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:F\:\\workspace\\javaweb_0115\\Springss07_exec_02\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:F\:\\workspace\\javaweb_0115\\ssm\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar

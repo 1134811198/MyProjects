@@ -1,0 +1,41 @@
+package com.atguigu.bookstore.beans;
+
+import java.util.List;
+
+public class Page<T> {
+  private List<T> list;
+  public static final int PAGE_SIZE=5;
+  private int PageNo;
+  private int totalRecord;
+public List<T> getList() {
+	return list;
+}
+public void setList(List<T> list) {
+	this.list = list;
+}
+public int getPageNo() {
+	return PageNo;
+}
+public void setPageNo(int pageNo) {
+	PageNo = pageNo;
+}
+public int getTotalPageNo() {
+	if(totalRecord % PAGE_SIZE == 0) {
+		return totalRecord/PAGE_SIZE;
+	}else {
+		return totalRecord/PAGE_SIZE + 1;
+	}
+	
+}
+
+public int getTotalRecord() {
+	return totalRecord;
+}
+public void setTotalRecord(int totalRecord) {
+	this.totalRecord = totalRecord;
+}
+public static int getPageSize() {
+	return PAGE_SIZE;
+}
+  
+}

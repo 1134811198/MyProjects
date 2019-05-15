@@ -1,0 +1,7 @@
+package com.atguigu.DI;
+
+public class Employee {
+private String name;
+private Integer age;
+
+}

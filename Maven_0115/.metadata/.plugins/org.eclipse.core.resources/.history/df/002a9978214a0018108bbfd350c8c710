@@ -1,0 +1,22 @@
+package com.atguigu.atcrowdfunding.service.impl;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.atguigu.atcrowdfunding.bean.User;
+import com.atguigu.atcrowdfunding.dao.UserDao;
+import com.atguigu.atcrowdfunding.exception.LoginFailureException;
+import com.atguigu.atcrowdfunding.service.UserService;
+import com.atguigu.atcrowdfunding.util.MD5Util;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserDao userDao;
+	
+
+
+}

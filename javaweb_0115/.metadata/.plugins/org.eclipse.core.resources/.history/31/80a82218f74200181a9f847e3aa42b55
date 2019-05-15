@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.dao.EmployeeMapper">
+
+  <!-- public Employee getEmployeeById(Integer id ); -->
+  <select id="getEmployeeById" resultType="com.atguigu.mybatis.beans.Employee">
+    select id,last_name lastName,email,gender from tbl_employee where id= #{id}
+  </select>
+  
+  <!-- public Integer  addEmployee(Employee employee); -->
+  <insert id="addEmployee" parameterType="com.atguigu.mybatis.beans.Employee"
+          useGeneratedKeys="true" keyProperty="id">
+   insert into tbl_employee (last_name,email,gender) values
+                             (#{lastName},#{email},#{gender})
+  
+  </insert>
+  
+  
+</mapper>

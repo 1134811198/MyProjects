@@ -1,0 +1,30 @@
+package com.atguigu.atcrowdfunding.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import org.apache.ibatis.annotations.Select;
+
+import com.atguigu.atcrowdfunding.bean.User;
+
+public interface UserDao {
+    
+    int deleteByPrimaryKey(Integer id);
+
+
+    User selectByPrimaryKey(Integer id);
+
+
+	
+	
+	//@Select("select * from t_user where loginacct =#{loginacct} and userpswd=#{userpswd}" )
+	User login(Map<String, Object> paramMap);
+
+	List<User> queryPage(Map<String,Object> paramMap);
+
+	int count(Map<String,Object> map);
+
+	int saveUser(User user);
+
+	int updateByPrimaryKey(User user);
+}

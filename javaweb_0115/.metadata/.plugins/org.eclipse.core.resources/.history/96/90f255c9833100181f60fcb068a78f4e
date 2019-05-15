@@ -1,0 +1,43 @@
+package com.atguigu.bookstore.service.impl;
+
+import java.util.List;
+
+import com.atguigu.bookstore.beans.Book;
+import com.atguigu.bookstore.dao.BaseDao;
+import com.atguigu.bookstore.dao.BookDao;
+import com.atguigu.bookstore.dao.impl.BookDaoImpl;
+import com.atguigu.bookstore.service.BookService;
+
+public class BookServiceImpl  implements BookService{
+    BookDao bookDao =new BookDaoImpl();
+	@Override
+	public List<Book> getBooks() {
+
+		return bookDao.getBooks();
+	}
+	@Override
+	public void saveBook(Book book) {
+		bookDao.saveBook(book);
+		
+	}
+	@Override
+	public void deleteBookById(String bookId) {
+		bookDao.deleteBookById(bookId);
+		
+	}
+	@Override
+	public Book getBookById(String bookId) {
+		
+		Book bookById = bookDao.getBookById(bookId);
+		return bookById;
+		
+		
+	}
+
+	@Override
+	public void updateBookById(Book book) {
+		bookDao.updateBookById(book);
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.atguigu.bookstore.servlet;
+
+public class CartServlet extends BaseServlet {
+
+}

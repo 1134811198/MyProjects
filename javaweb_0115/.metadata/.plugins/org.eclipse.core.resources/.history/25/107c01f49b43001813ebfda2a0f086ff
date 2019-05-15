@@ -1,0 +1,58 @@
+package com.atguigu.mybatis.test;
+
+import static org.junit.Assert.*;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.atguigu.mybatis.beans.Employee;
+import com.atguigu.mybatis.dao.EmployeeMapperDynamicSQL;
+
+public class TestDynamicSQL {
+	EmployeeMapperDynamicSQL mapper;
+	SqlSession session;
+	
+	@Before
+	public void init() throws Exception {
+		String resource = "MyBatis.xml";
+	
+        InputStream inputStream = 
+        		Resources.getResourceAsStream(resource);
+        SqlSessionFactory sqlSessionFactory = 
+        		new SqlSessionFactoryBuilder().build(inputStream);
+         session = sqlSessionFactory.openSession();
+        mapper = session.getMapper(EmployeeMapperDynamicSQL.class);
+        System.out.println(mapper);
+	
+	}
+   @Test
+   public void testConditionIf() {
+	   /*
+	    *     id  last_name  email          gender    d_id  
+              10  hui2       hui2@126.com   0              4
+	    */
+	   Employee condition=new Employee(null,"jack",null,0);
+	   List<Employee> empsByConditionIf = mapper.getEmpsByConditionIf(condition);
+	   System.out.println(empsByConditionIf);
+   }
+   @Test
+   public void testConditionTrim() {
+	   Employee condition=new Employee(null,"jack",null,3);
+	   List<Employee> empsByConditionTrim = mapper.getEmpsByConditionTrim(condition);
+	   System.out.println(empsByConditionTrim);
+   }
+   @Test
+   public void testConditionSet() {
+	   Employee condition=new Employee(null,"jack22",null,0);
+	   mapper.updateEmpsByConditionSet(condition);
+	   session.commit();
+   }
+}

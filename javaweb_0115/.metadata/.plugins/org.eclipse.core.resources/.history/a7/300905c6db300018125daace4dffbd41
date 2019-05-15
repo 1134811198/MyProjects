@@ -1,0 +1,9 @@
+package com.atguigu.bookstore.dao;
+
+import java.util.List;
+
+import com.atguigu.bookstore.beans.Book;
+
+public interface BookDao {
+      List<Book> getBooks();
+}

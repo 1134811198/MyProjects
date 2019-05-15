@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.atguigu.mybatis.dao.EmployeeMapperResultMap">
+  <!-- public Employee  getEmployeeAndDept(Integer id ); -->
+  <select id="getEmployeeAndDept" resultMap="myEmpAndDept">
+   SELECT e.`d_id` eid,last_name,email,gender,d.`id` did,department_name 
+          FROM tbl_employee e,tbl_dept2 d
+          WHERE e.`d_id` = d.`id` AND e.id = #{id}
+  </select>
+  <resultMap type="com.atguigu.mybatis.beans.Employee" id="myEmpAndDept">
+  <id column="" property="" />
+  </resultMap>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </mapper>

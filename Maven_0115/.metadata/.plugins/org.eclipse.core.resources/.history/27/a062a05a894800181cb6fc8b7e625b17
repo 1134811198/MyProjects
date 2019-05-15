@@ -1,0 +1,5 @@
+//常量类
+public class Const {
+
+	public  static final String APP_PATH="APP_PATH";
+}

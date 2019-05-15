@@ -1,0 +1,5 @@
+package com.atguigu.ioc.factory;
+
+public interface ReportGenerator {
+
+}

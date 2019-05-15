@@ -1,0 +1,45 @@
+package com.atguigu.bookstore.test;
+
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+
+import com.atguigu.bookstore.beans.Book;
+import com.atguigu.bookstore.dao.BookDao;
+import com.atguigu.bookstore.dao.impl.BookDaoImpl;
+
+class BookDaoTest {
+
+	BookDao bookDao = new BookDaoImpl();
+	
+	@Test
+	void testUpdateBookById() {
+		Book book = new Book(42, "时间简史第二季", "霍小金", 888.88, 10000, 1);
+		bookDao.updateBookById(book);
+	}
+	
+	@Test
+	void testGetBookById() {
+		Book bookById = bookDao.getBookById("1");
+		System.out.println(bookById);
+	}
+	
+	@Test
+	void testDeleteBookById() {
+		bookDao.deleteBookById("41");
+	}
+	
+	@Test
+	void testGetBooks() {
+		List<Book> books = bookDao.getBooks();
+		for (Book book : books) {
+			System.out.println(book);
+		}
+	}
+
+	@Test
+	void testSaveBook() {
+		Book book = new Book(null, "三国演义", "罗贯中", 35.75, 100, 100);
+		bookDao.saveBook(book);
+	}
+}

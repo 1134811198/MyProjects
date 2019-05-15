@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../../libs/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#submit").click(function(){
+		var username=$("#username").val();
+        if(username ==""){
+        	 alert("用户名不能为空");
+        }
+		var password = $("#password").val();
+		if(password==""){
+			alert("密码不能为空");
+		};
+		var repsw = $("#repsw").val();
+		if(repsw== ""){
+			alert("确认密码不能为空");
+			return false;
+		}
+		if(repsw !== password){
+			alert("密码输入不同");
+			return false;
+		}
+		var email = $("#email").val();
+		if(email ==""){
+			alert("邮箱不能为空");
+		}
+	});
+
+
+});
+</script>
+</head>
+<body>
+<div>
+<h3>注册页面</h3>
+<form action="../RegistServlet" method="post">
+<table border="1">
+<tr>
+    <td>用户名</td>
+    <td><input type="text" placeholder="请输入用户名" autocomplete="off"name="username" id="username" /></td>
+</tr>
+<tr>
+    <td>密码</td>
+    <td><input type = "password" placeholder="请输入密码" autocomplete="off"name="password" id="password"/></td>
+</tr>
+<tr>
+    <td>密码确认</td>
+    <td><input type = "password" placeholder="请输入确认密码" autocomplete="off"name="repsw" id="repsw"/></td>
+</tr>
+<tr>
+    <td>邮箱</td>
+    <td><input type = "text" placeholder="请输入邮箱" autocomplete="off"name="email" id="email"/></td>
+</tr>
+<tr>
+    <td colspan="2" align="center"><input type="submit" value="注册" id="submit"/></td>
+</tr>
+</table>
+
+</form>
+</div>
+<a href="../index.html">返回首页</a>
+</body>
+</html>

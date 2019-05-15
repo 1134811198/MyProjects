@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.dao.DepartmentMapperResultMap">
+	
+	<!-- public Department getDeptById(Integer id ); -->
+	<select id="getDeptById" resultType="com.atguigu.mybatis.beans.Department">
+		select id , dept_name departmentName from tbl_dept where id = #{id}
+	</select>
+	
+	
+	<!-- public Department getDeptAndEmps(Integer id ); -->
+	<select id="getDeptAndEmps" resultMap="myDeptAndEmps">
+		SELECT d.id did ,d.dept_name ,e.id eid ,e.last_name ,e.email,e.gender  
+		FROM   tbl_employee e  RIGHT OUTER JOIN   tbl_dept d 
+		ON d.id = e.d_id  WHERE d.id = #{id}
+	
+	</select>
+	
+	<!-- 
+		    did  dept_name     eid  last_name     email           gender  
+
+    		 1           开发部                      1             社会刚哥          gg@atguigu.com      1       
+             1     开发部                    11      Jerry    jerry@sina.com      0       
+	 -->
+	<resultMap type="com.atguigu.mybatis.beans.Department" id="myDeptAndEmps">
+		<id column="did" property="id"/>
+		<result column="dept_name" property="departmentName"/>
+		
+		<!-- 
+			collection: 映射集合类型的关联属性
+				property:关联属性
+				ofType:指定的是映射的类型， 可以记成集合中元素的类型. 
+		 -->
+		<collection property="emps" ofType="com.atguigu.mybatis.beans.Employee">
+			<id column="eid" property="id"/>
+			<result column="last_name" property="lastName"/>
+			<result column="email" property="email"/>
+			<result column="gender" property="gender"/>
+		</collection>
+	</resultMap>
+	
+	<!-- 
+		collection 分步查询:
+			需求: 查询部门并且查询所有的员工信息
+				1. 先根据部门的id查询部门的信息
+				2. 再根据部门的id（充当员工的外键），查询员工信息
+	 -->
+	 <!-- public Department getDeptAndEmpsStep(Integer id ); -->
+	 <select id="getDeptAndEmpsStep" resultMap="myDeptAndEmpsStep">
+	 	select id ,dept_name  from tbl_dept where id  = #{id}
+	 </select>
+	 
+	 <resultMap type="com.atguigu.mybatis.beans.Department" id="myDeptAndEmpsStep">
+	 	<id column="id" property="id"/>
+	 	<result column="dept_name" property="departmentName"/>
+	 	<collection property="emps" 
+	 			select="com.atguigu.mybatis.dao.EmployeeMapperResultMap.getEmpsByDid"
+	 			column="id">
+	 	</collection>
+	 
+	 </resultMap>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+</mapper>

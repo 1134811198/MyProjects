@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>CreateCookie</display-name>
+    <servlet-name>CreateCookie</servlet-name>
+    <servlet-class>com.atguigu.cookie.servlet.CreateCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateCookie</servlet-name>
+    <url-pattern>/CreateCookie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetCookie</display-name>
+    <servlet-name>GetCookie</servlet-name>
+    <servlet-class>com.atguigu.cookie.servlet.GetCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetCookie</servlet-name>
+    <url-pattern>/GetCookie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ModifyCookie</display-name>
+    <servlet-name>ModifyCookie</servlet-name>
+    <servlet-class>com.atguigu.cookie.servlet.ModifyCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModifyCookie</servlet-name>
+    <url-pattern>/ModifyCookie</url-pattern>
+  </servlet-mapping>
+</web-app>

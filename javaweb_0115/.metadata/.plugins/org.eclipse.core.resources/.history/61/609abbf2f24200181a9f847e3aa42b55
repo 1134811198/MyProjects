@@ -1,0 +1,17 @@
+package com.atguigu.mybatis.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestMyBatis {
+
+	public void getSqlSessionFactory() {
+		
+	}
+	@Test
+	public void testSelect() {
+		
+	}
+
+}

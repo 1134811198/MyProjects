@@ -1,0 +1,7 @@
+package com.atguigu.atcrowdfunding.listener;
+
+public class Const {
+	
+	public  static final String APP_PATH="APP_PATH";
+
+}

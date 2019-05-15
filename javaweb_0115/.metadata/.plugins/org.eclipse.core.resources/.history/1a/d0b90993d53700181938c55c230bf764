@@ -1,0 +1,28 @@
+package com.atguigu.spring.helloworld;
+
+public class Person {
+private String name;
+private char gender;
+
+public char getGender() {
+	return gender;
+}
+
+public void setGender(char gender) {
+	this.gender = gender;
+}
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+public void sayHello() {
+	System.out.println("我的名字是"+name);
+}
+public void sayGender() {
+	System.out.println("我的性别是"+gender);
+}
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+<!-- 引用外部属性文件 -->
+<context:property-placeholder location="classpath:hometown.properties"/>
+<!-- 配置Employee类 -->
+<bean id="employee" class="com.atguigu.SpringIOC.beans.Employee">
+<property name="name" value="Tom"></property>
+<property name="salary" value="15000"></property>
+<property name="dept" ref="department"></property><!-- 引用内部bean类 -->
+<property name="hometown" ref="hometown"></property><!-- 引用外部bean类 -->
+</bean>
+<!-- 配置hometown类 -->
+<bean id="hometown" class="com.atguigu.SpringIOC.beans.Hometown">
+<property name="province" value="${province}"></property>
+<property name="city" value="${city}"></property>
+</bean>
+<!-- 配置department类 -->
+<bean id="department" class="com.atguigu.SpringIOC.beans.Department">
+<property name="deptId" value="1001"></property>
+<property name="deptName" value="财务部"></property>
+</bean>
+</beans>

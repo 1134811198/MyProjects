@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+ <!-- 注册KaptchaServlet -->
+ <servlet>
+ 	<servlet-name>KaptChaServlet</servlet-name>
+ 	<servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+ 	<!-- 设置生成验证码的字符 -->
+ 	<init-param>
+ 		<param-name>kaptcha.textproducer.char.string</param-name>
+ 		<param-value>Il1</param-value>
+ 	</init-param>
+ 	<!-- 修改向session域中保存验证码时的key -->
+ 	<init-param>
+ 		<param-name>kaptcha.session.key</param-name>
+ 		<param-value>code</param-value>
+ 	</init-param>
+ </servlet>
+ <!-- 映射KaptchaServlet -->
+ <servlet-mapping>
+ 	<servlet-name>KaptChaServlet</servlet-name>
+ 	<url-pattern>/code.jpg</url-pattern>
+ </servlet-mapping>
+</web-app>

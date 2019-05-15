@@ -1,0 +1,10 @@
+package com.atguigu.bookstore.test;
+
+public class BookDaoTest {
+     
+	
+	public void testSaveBook() {
+		bookDao.saveBook
+		
+	}
+}

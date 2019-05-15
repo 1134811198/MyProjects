@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.Dao.EmployeeMapper">
+
+	<select id="selectEmployee" resultType="com.atguigu.mybatis.beans.Employee">
+	 select id,last_name lastName,email,gender from tbl_employee where id= #{id}  </select>
+	 
+	 <select id="getEmployeeById" resultType="com.atguigu.mybatis.beans.Employee">
+	 select id,last_name lastName,email,gender from tbl_employee where id= #{id}  </select>
+	 
+	 <select id="deleteEmployeeById">
+	 delete from tbl_employee where id= #{id}
+	 </select>
+	 
+	 <select id="updateEmployeeById">
+	 update tbl_employee set last_name= #{last_name},email=#{email},gender=#{gender} where id= #{id}
+	 </select>
+	 
+	 <select id="updateEmployeeById">
+	 insert into tbl_employee last_name,gender,email values(#{last_name},#{email},#{gender})
+	 </select>
+	 
+</mapper>

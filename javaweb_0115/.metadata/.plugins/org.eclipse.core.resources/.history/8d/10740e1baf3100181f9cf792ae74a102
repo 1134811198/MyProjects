@@ -1,0 +1,22 @@
+package com.atguigu.bookstore.test;
+
+import org.junit.Test;
+
+import com.atguigu.bookstore.beans.Book;
+import com.atguigu.bookstore.dao.BookDao;
+import com.atguigu.bookstore.dao.impl.BookDaoImpl;
+
+public class BookDaoTest {
+
+	BookDao bookDao= new BookDaoImpl();
+	
+	
+	@Test
+	public void testGetBookById() {
+		String bookId="5";
+		Book book = bookDao.getBookById(bookId);
+		System.out.println(book);
+		
+		
+	}
+}

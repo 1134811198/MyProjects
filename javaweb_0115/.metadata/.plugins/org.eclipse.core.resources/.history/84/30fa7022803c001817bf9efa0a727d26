@@ -1,0 +1,18 @@
+package com.atguigu.spring.jdbc.test;
+
+import javax.activation.DataSource;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Testjdbc {
+@Test
+public void test01() {
+	ApplicationContext ctx=
+			new ClassPathXmlApplicationContext("JdbcTemplate.xml");
+	DataSource dataSource = ctx.getBean("dataSource",DataSource.class);
+	System.out.println(dataSource);
+	
+}
+}

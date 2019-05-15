@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="styleB/css.css" />
+	<script type="text/javascript" src="../../script/jquery-1.7.2.js"></script>
+	<script type="text/javascript">
+	$(function() {
+
+		function trDelete() {
+			//获取要删除的tr元素
+			var $trEle = $(this).parents("tr");
+			//获取用户的name
+			var name = $trEle.find("td:first").text();
+			//弹出确认或者取消的提示框
+			var flag = confirm("你确定要删除【" + name + "】吗？");
+			if (flag) {
+				//删除该记录，及将tr从表格中移除
+				$trEle.remove();
+			}
+			//取消默认行为
+			return false;
+		}
+
+		//★删除操作
+		//给所有的超链接绑定单击事件
+		$("a").click(trDelete);
+
+		//添加操作
+		//给添加员工的按钮绑定单击事件
+		$("#addEmpButton").click(
+				function() {
+					//获取用户输入的name、email、salary
+					var name = $("#empName").val();
+					var email = $("#email").val();
+					var salary = $("#salary").val();
+					//创建包含超链接的td元素节点对象
+					var $tdEle = $("<td><a href='#'>Delete</a></td>");
+					//创建tr元素节点对象并向其中添加td元素
+					$("<tr></tr>").append("<td>" + name + "</td>")
+					              .append("<td>" + email + "</td>")
+				                  .append("<td>" + salary + "</td>")
+				                  .append($tdEle)
+					//将tr元素节点添加到第一个table中
+					              .appendTo($("#employeeTable"));
+					//给新添加的超链接绑定单击事件
+					             // $tdEle.children().click(trDelete);
+					              $tdEle.delegate("a","click",trDelete);
+				});
+	});
+		
+	</script>
+	</head>
+	<body>
+	
+		<table id="employeeTable">
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Salary</th>
+				<th>&nbsp;</th>
+			</tr>
+			<tr>
+				<td>Tom</td>
+				<td>tom@tom.com</td>
+				<td>5000</td>
+				<td><a href="deleteEmp?id=001">Delete</a></td>
+			</tr>
+			<tr>
+				<td>Jerry</td>
+				<td>jerry@sohu.com</td>
+				<td>8000</td>
+				<td><a href="deleteEmp?id=002">Delete</a></td>
+			</tr>
+			<tr>
+				<td>Bob</td>
+				<td>bob@tom.com</td>
+				<td>10000</td>
+				<td><a href="deleteEmp?id=003">Delete</a></td>
+			</tr>
+		</table>
+	
+		<div id="formDiv">
+		
+			<h4>添加新员工</h4>
+	
+			<table>
+				<tr>
+					<td class="word">name: </td>
+					<td class="inp">
+						<input type="text" name="empName" id="empName" />
+					</td>
+				</tr>
+				<tr>
+					<td class="word">email: </td>
+					<td class="inp">
+						<input type="text" name="email" id="email" />
+					</td>
+				</tr>
+				<tr>
+					<td class="word">salary: </td>
+					<td class="inp">
+						<input type="text" name="salary" id="salary" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button id="addEmpButton" value="abc">
+							Submit
+						</button>
+					</td>
+				</tr>
+			</table>
+	
+		</div>
+	
+	</body>
+</html>

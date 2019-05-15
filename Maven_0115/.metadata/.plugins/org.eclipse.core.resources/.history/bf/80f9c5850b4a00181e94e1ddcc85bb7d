@@ -1,0 +1,39 @@
+package com.atguigu.atcrowdfunding.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.atguigu.atcrowdfunding.bean.User;
+
+@Controller
+public class DispatcherController {
+
+	@RequestMapping("/index")
+	public String index() {
+		
+		return "index";
+	}
+	
+	@RequestMapping("/toLogin")
+	public String toLogin() {
+		
+		
+		return "login";
+	}
+	@RequestMapping("/doLogin")
+	public String Login(String loginacct,String userpswd,String usertype) {
+		
+		Map<String,Object> paramMap=new HashMap<String, Object>();
+		paramMap.put("loginacct", loginacct);
+		paramMap.put("userpswd", userpswd);
+		paramMap.put("usertype", usertype);
+		
+		User user = userService.login(paramMap);
+		
+		
+		return "";
+	}
+}

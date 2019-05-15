@@ -1,0 +1,101 @@
+package com.atguigu.mybatis.test;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Test;
+import org.mybatis.generator.api.MyBatisGenerator;
+import org.mybatis.generator.config.Configuration;
+import org.mybatis.generator.config.xml.ConfigurationParser;
+import org.mybatis.generator.exception.XMLParserException;
+import org.mybatis.generator.internal.DefaultShellCallback;
+
+import com.atguigu.mybatis.beans.Employee;
+import com.atguigu.mybatis.dao.EmployeeMapper;
+
+public class TestP {
+
+	@Test
+	public void test() throws Exception, XMLParserException {
+		   List<String> warnings = new ArrayList<String>();
+		   boolean overwrite = true;
+		   File configFile = new File("mbg.xml");
+		   ConfigurationParser cp = new ConfigurationParser(warnings);
+		   Configuration config = cp.parseConfiguration(configFile);
+		   DefaultShellCallback callback = new DefaultShellCallback(overwrite);
+		   MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
+		   myBatisGenerator.generate(null);
+	}
+	public SqlSessionFactory getSqlSessionFactory() throws Exception {
+		String resource = "MyBatis.xml";
+		InputStream inputStream = Resources.getResourceAsStream(resource);
+		SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+		return sqlSessionFactory;
+	}
+	@Test
+	public void testSelect() throws Exception {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		SqlSession session = sqlSessionFactory.openSession();
+		EmployeeMapper mapper = session.getMapper(EmployeeMapper.class);
+		try {
+			//Employee employee = mapper.selectByPrimaryKey(2);
+			int i = mapper.insert(new Employee(null, "张三", "张三@126.com", "1", 4));
+			System.out.println(i);
+			
+			session.commit();
+		} finally {
+			session.close();
+		}
+	}
+    @Test
+    public void testDelete() throws Exception {
+    	SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+    	SqlSession session = sqlSessionFactory.openSession();
+    	EmployeeMapper mapper = session.getMapper(EmployeeMapper.class);
+    	try {
+    		int i = mapper.deleteByPrimaryKey(19);
+    		System.out.println(i);
+			session.commit();
+		} finally {
+			session.close();
+		}
+    	
+    }
+    @Test
+    public void testUpdate() throws Exception {
+    	SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+    	SqlSession session = sqlSessionFactory.openSession();
+    	EmployeeMapper mapper = session.getMapper(EmployeeMapper.class);
+    	try {
+    		Employee record=new Employee(20,"周杰伦","周就论@126.com","1",3);
+    		mapper.updateByPrimaryKey(record);
+			session.commit();
+		} finally {
+			session.close();
+		}
+    	
+    }
+    @Test
+    public void testAdd() throws Exception {
+    	SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+    	SqlSession session = sqlSessionFactory.openSession();
+    	EmployeeMapper mapper = session.getMapper(EmployeeMapper.class);
+    	try {
+    		Employee record=new Employee(null,"kunling","昆凌@126.com","0",3);
+			int i = mapper.insert(record);
+			System.out.println(i);
+			session.commit();
+		} finally {
+			session.close();
+		}
+    }
+	
+
+}

@@ -1,0 +1,12 @@
+package com.atguigu.atcrowdfunding.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class UserController {
+
+	@RequestMapping("/index")
+	public String index() {
+		return "redirect:/user/index";
+	}
+}

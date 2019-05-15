@@ -1,0 +1,5 @@
+package com.atguigu.Springss.dao;
+
+public class UserDao {
+
+}

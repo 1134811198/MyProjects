@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>event</title>
+<script type="text/javascript">
+	//借助window.onload事件,在这个页面加载完成后执行程序代码
+	//造地雷：
+	window.onload = function(){
+		function boom(){
+			alert("boommmmmmmm");
+		}
+		//选id地点：
+		var btn=document.getElementById("btnId");
+	   //出发爆炸：
+		btn.ondblclick=boom;
+	
+	};
+</script>
+</head>
+<body>
+	<button id="btnId">SayHello</button>
+</body>
+</html>

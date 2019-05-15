@@ -1,0 +1,9 @@
+package com.atguigu.mybatis.Dao;
+
+import com.atguigu.mybatis.beans.Employee;
+
+public interface EmployeeMapper {
+	
+	public Employee getEmployeeById(Integer id);
+
+}

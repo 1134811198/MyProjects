@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 
+		<bean>: 受Spring IOC容器管理的一个JavaBean对象. 
+			id: <bean>的唯一标识。 在整个IOC容器中要保证唯一不重复. 
+			class: 指定全类名. 通过反射的方式创建对象. 
+				   Class : 获取Class对象的几种方式:
+				   	       1.  Class.forName("全类名")
+				   	       2.  对象.getClass()
+				   	       3.  类名.class 
+				   实现过程: 
+				   	Class cls = 
+				   		Class.forName("com.atguigu.spring.helloWorld.Person");
+				   	Object obj = cls.newInstance(); //必须要有无参数构造器. 
+		 <property>: 给对象的属性注入值. 
+		 	         name指定的值必须是与类中的set风格的属性做对应的. 
+		 			   	
+	 -->
+	<bean id="person" class="com.atguigu.spring.helloWorld.Person">
+		<property name="name" value="Spring"></property>
+	</bean>
+	
+	<bean id="person1" class="com.atguigu.spring.helloWorld.Person">
+		<property name="name" value="Springmvc"></property>
+	</bean>
+	
+	
+	
+	
+
+</beans>

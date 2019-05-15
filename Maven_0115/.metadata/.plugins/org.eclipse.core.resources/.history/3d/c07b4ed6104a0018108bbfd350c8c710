@@ -1,0 +1,5 @@
+package com.atguigu.atcrowdfunding.dao;
+
+public interface UserDao {
+
+}

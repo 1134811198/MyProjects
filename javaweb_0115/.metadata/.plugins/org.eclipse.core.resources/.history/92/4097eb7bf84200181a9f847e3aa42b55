@@ -1,0 +1,55 @@
+package com.atguigu.mybatis.test;
+
+import static org.junit.Assert.*;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.atguigu.mybatis.beans.Employee;
+import com.atguigu.mybatis.dao.EmployeeMapper;
+
+public class TestMyBatis {
+
+	SqlSession session;
+	EmployeeMapper employeeMapper;
+	@Before
+	public void getSqlSessionFactory() throws Exception {
+		
+		InputStream inputStream = Resources.getResourceAsStream("MyBatis.xml");
+		SqlSessionFactory sqlSessionFactory = 
+				new SqlSessionFactoryBuilder().build(inputStream);
+		session = sqlSessionFactory.openSession();
+		employeeMapper = session.getMapper(EmployeeMapper.class);
+		System.out.println(employeeMapper);
+	}
+	@Test
+	public void testSelect() {
+		Employee employee = employeeMapper.getEmployeeById(2);
+		System.out.println(employee);
+	}
+	@Test
+	public void testInsert() {
+		Employee employee=new Employee(null,"huihui","huihui@126.com",1);
+		Integer result = employeeMapper.addEmployee(employee);
+		System.out.println("result:"+result);
+		Integer id = employee.getId();
+		System.out.println("primarykey:"+id);
+		session.commit();
+		
+	}
+	@Test
+	public void testUpdate() {
+		Employee employee=new Employee(10,"hui2","hui2@126.com",0);
+		Long long1 = employeeMapper.updateEmployee(employee);
+		System.out.println(long1);
+		session.commit();
+	}
+
+}

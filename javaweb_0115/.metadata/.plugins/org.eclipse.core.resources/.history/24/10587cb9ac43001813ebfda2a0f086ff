@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.dao.EmployeeMapperDynamicSQL">
+	
+	<!-- public List<Employee> getEmpsByConditionIf(Employee condition); -->
+	<select id="getEmpsByConditionIf" resultType="com.atguigu.mybatis.beans.Employee">
+		select id , last_name , email, gender 
+		from tbl_employee
+		<!-- where 1 = 1  -->
+		<where>
+			<if test="id!=null">
+				 id = #{id}
+			</if>
+			<if test="lastName!=null &amp;&amp; lastName!=&quot;&quot;">
+				and last_name = #{lastName}
+			</if>
+			<if test="email!=null and email.trim()!=''">
+				and email = #{email}
+			</if>
+			<if test="gender==0 or gender==1">
+				and gender = #{gender}
+			</if>
+		
+		</where>
+	</select>
+	<!-- public List<Employee> getEmpsByConditionTrim(Employee condition); -->
+	
+	<select id="getEmpsByConditionTrim" resultType="com.atguigu.mybatis.beans.Employee">
+		select id , last_name , email, gender 
+		from tbl_employee
+		<trim prefix="where" suffixOverrides="and|or">
+			<!-- <trim  suffixOverrides="and" > -->
+				<if test="id!=null">
+					 id = #{id} and
+				</if>
+				<if test="lastName!=null &amp;&amp; lastName!=&quot;&quot;">
+					 last_name = #{lastName} and
+				</if>
+				<if test="email!=null and email.trim()!=''">
+					 email = #{email} or
+				</if>
+				<if test="gender==0 or gender==1">
+					 gender = #{gender}
+				</if>
+			<!-- </trim> -->
+		</trim>
+	</select>
+	
+	<!-- public void  updateEmpsByConditionSet(Employee condition);-->
+	<update id="updateEmpsByConditionSet" >
+		update tbl_employee 
+		<set>
+			<if test="lastName!=null &amp;&amp; lastName!=&quot;&quot;">
+				last_name = #{lastName} ,
+			</if>
+			<if test="email!=null and email.trim()!=''">
+				 email = #{email} ,
+			</if>
+			<if test="gender==0 or gender==1">
+				gender = #{gender}
+			</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	<!-- public List<Employee> getEmpsByConditionChoose(Employee condition); -->
+	<select id="getEmpsByConditionChoose" resultType="com.atguigu.mybatis.beans.Employee">
+		<!-- 判断条件，只要有一个条件满足了， 就直接使用该条件查询，后面的不再判断 -->
+		select id, last_name, email,gender from tbl_employee
+		where
+		<choose>
+			<when test="id!=null">
+				id = #{id}
+			</when>
+			<when test="lastName!=null">
+				last_name = #{lastName}
+			</when>
+			<when test="email!=null">
+				email = #{email}
+			</when>
+			<otherwise>
+				gender = 1
+			</otherwise>
+		</choose>
+	
+	</select>
+	
+	<!-- public List<Employee> getEmpsByIds(@Param("ids")List<Integer > ids ); -->
+	<select id="getEmpsByIds" resultType="com.atguigu.mybatis.beans.Employee">
+		<!-- 
+			select * from tbl_employee where id = ? or id = ?  or id = ?
+			select * from tbl_employee where id in(?,?,?)
+			
+			foreach: 
+				collection: 指定要迭代的集合
+				item: 代表当前迭代出的元素
+				open: 开始字符
+				close: 结束字符
+				separator: 元素与元素之间的分隔符
+		 -->
+		 
+			 select id,last_name, email,gender from tbl_employee where id  in 
+		 
+		 	<foreach collection="ids" item="curr_id" open="(" close=")" separator=",">
+		 		#{curr_id}     
+		 	</foreach>
+		 
+		 
+	</select>
+	
+	
+	<!-- public void addEmpBatch(List<Employee> emps ); 
+		
+		insert into tbl_employee(last_name,email,gender) values(?,?,?),(?,?,?),(?,?,?)
+		
+		insert into tbl_employee(last_name,email,gender) values(?,?,?)
+		insert into tbl_employee(last_name,email,gender) values(?,?,?)
+		insert into tbl_employee(last_name,email,gender) values(?,?,?)
+	-->
+	
+	<insert id="addEmpBatch">
+		insert into tbl_employee(last_name,email,gender) values 
+		<foreach collection="emps" item="curr_emp" separator=",">
+			(#{curr_emp.lastName},#{curr_emp.email},#{curr_emp.gender})
+		</foreach>
+	</insert>
+	
+	
+	
+		<!-- public void upadateEmpBetch(@Param("emps")List<Employee> emps); -->
+	<update id="upadateEmpBetch">
+		<foreach collection="emps" item="curr_emp">
+			UPDATE tbl_employee SET last_name=#{curr_emp.lastName} , 
+				email =#{curr_emp.email} , 
+					gender = #{curr_emp.gender}
+			 WHERE id = #{curr_emp.id} ;
+		</foreach>
+	</update>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</mapper>

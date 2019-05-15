@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+<!-- 目标对象类 -->
+<bean id="arithmeticCalculatorImpl" class="com.atguigu.Spring.aspectJ.xml.ArithmeticCalculatorImpl">
+
+</bean>
+
+<!-- 切面类 -->
+<bean id="loggingAspect" class="com.atguigu.Spring.aspectJ.xml.LoggingAspect">
+
+</bean>
+
+<bean id="secondAspect" class="com.atguigu.Spring.aspectJ.xml.SecondAspect"></bean>
+<!-- AOP -->
+<aop:config>
+<!-- 切入点表达式 -->
+<aop:pointcut expression="execution(* com.atguigu.Spring.aspectJ.xml.*.*(..))" id="myPointcut"/>
+<!-- 配置切面 -->
+<aop:aspect ref="loggingAspect" order="3">
+<!-- 连接点 -->
+<aop:before method="beforeMethod" pointcut-ref="myPointcut"/>
+<aop:after method="afterMethod" pointcut-ref="myPointcut"/>
+<aop:after-returning method="afterReturningMethod" pointcut-ref="myPointcut"/>
+</aop:aspect>
+
+<aop:aspect ref="secondAspect" order="5">
+<aop:before method="beforeMethod" pointcut-ref="myPointcut"/>
+</aop:aspect>
+</aop:config>
+</beans>

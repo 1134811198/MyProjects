@@ -1,0 +1,5 @@
+package com.atguigu.bookstore.service;
+
+public interface BookService {
+
+}

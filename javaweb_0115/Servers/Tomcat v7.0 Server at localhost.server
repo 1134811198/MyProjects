@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0 (2)" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="15">
+  <list key="modules" value0="Spring06_exec_01::org.eclipse.jst.jee.server:Spring06_exec_01::jst.web::2.5" value1="Springmvc03::org.eclipse.jst.jee.server:Springmvc03::jst.web::2.5" value2="Spring07_exec_1::org.eclipse.jst.jee.server:Spring07_exec_1::jst.web::2.5" value3="Springss07_exec_02::org.eclipse.jst.jee.server:Springss07_exec_02::jst.web::2.5" value4="ssm::org.eclipse.jst.jee.server:ssm::jst.web::2.5"/>
+</server>

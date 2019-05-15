@@ -1,0 +1,10 @@
+package com.atguigu.Springss.dao;
+
+public class UserDao {
+
+	public UserDao() {
+		System.out.println("UserDao....");
+	}
+
+	
+}

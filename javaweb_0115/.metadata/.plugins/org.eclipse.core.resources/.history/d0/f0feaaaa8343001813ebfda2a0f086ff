@@ -1,0 +1,12 @@
+package com.atguigu.mybatis.dao;
+
+import com.atguigu.mybatis.beans.Employee;
+
+public interface EmployeeMapperResultMap {
+
+	/*
+	 * select employee & department
+	 */
+	public Employee  getEmployeeAndDept(Integer id );
+	public Employee  getEmployeeAndDeptStep(Integer id );
+}

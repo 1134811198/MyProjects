@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+	<!-- set方式注入 -->
+	<bean id="employee" class="com.atgguigu.spring.di.Employee">
+		<property name="id" value="1001">
+			<!-- <value>1001</value> -->
+		</property>
+		<property name="lastName" value="社会刚"></property>
+		<property name="email" value="gg@atguigu.com"></property>
+		<property name="age" value="35"></property>
+	</bean>
+	
+	
+	
+	<!-- 构造器注入 
+		index: 指定参数的位置. 
+		type:  指定参数的类型. 
+		
+	-->
+	<bean id="employee1" class="com.atgguigu.spring.di.Employee">
+		<constructor-arg value="1002" index="0"></constructor-arg>
+		<constructor-arg value="xh@atguigu.com" index="2"></constructor-arg>
+		<constructor-arg value="韩总" index="1"></constructor-arg>
+		<constructor-arg value="30" index="3" type="java.lang.Integer"></constructor-arg>
+	</bean>
+	
+	
+	<bean id="employee2" class="com.atgguigu.spring.di.Employee">
+		<constructor-arg value="1003"></constructor-arg>
+		<constructor-arg value="婷婷"></constructor-arg>
+		<constructor-arg value="tt@atguigu.com"></constructor-arg>
+		<constructor-arg value="20000"></constructor-arg>
+	</bean>
+	
+	<!-- 字面值
+		特殊字符:
+			1. 实体.   &nbsp;   &lt; &gt;
+			2.<![CDATA[....]]>
+		
+	 -->
+	<bean id="book" class="com.atgguigu.spring.di.Book">
+		<property name="isbn" value="ISBN-101"></property>
+		<!-- <property name="bookName" value="&lt;&lt;Java从入门到精通 &gt;&gt;"></property> -->
+		<property name="bookName">
+			<value><![CDATA[<<活着>>,.'"&]]></value>
+		</property>
+	</bean>
+	
+	<!-- 引用其他的bean -->
+	<bean id="employee3" class="com.atgguigu.spring.di.Employee">
+		<property name="id" value="1004"></property>
+		<property name="lastName" value="慧慧"></property>
+		<property name="email" value="hh@atguigu.com"></property>
+		<property name="age" value="30"></property>
+		<property name="salary" value="10000"></property>
+		<property name="dept"  ref="dept">
+			<!-- <ref bean="dept"/> -->
+		</property>
+	</bean>
+	
+	<bean id="dept" class="com.atgguigu.spring.di.Department">
+		<property name="id" value="1"></property>
+		<property name="deptName" value="教学部"></property>
+	</bean>
+	
+	<!-- 内部bean -->
+	<bean id="employee4" class="com.atgguigu.spring.di.Employee">
+		<property name="id" value="1005"></property>
+		<property name="lastName" value="玛利亚"></property>
+		<property name="email" value="mly@atguigu.com"></property>
+		<property name="age" value="30"></property>
+		<property name="salary" value="10000"></property>
+		<property name="dept" >
+			<bean class="com.atgguigu.spring.di.Department">
+				<property name="id" value="2"></property>
+				<property name="deptName" value="影视部"></property>
+			</bean>
+		</property>
+	</bean>
+	
+	<!-- null值 和级联属性 -->
+	<bean id="dept1" class="com.atgguigu.spring.di.Department">
+		<property name="id" value="3"></property>
+		<property name="deptName"><null/></property> 
+	</bean>
+	
+	
+	<bean id="employee5" class="com.atgguigu.spring.di.Employee">
+		<property name="id" value="1006"></property>
+		<property name="lastName" value="柴柴"></property>
+		<property name="email" value="cc@atguigu.com"></property>
+		<property name="age" value="30"></property>
+		<property name="salary" value="10000"></property>
+		<property name="dept" ref="dept1"></property>
+		<!-- 级联属性 -->
+		<property name="dept.deptName" value="研发部"></property>
+	</bean>
+	
+	
+	<!-- 集合类型的属性注入 -->
+	<bean id="dept2" class="com.atgguigu.spring.di.Department">
+		<property name="id" value="4"></property>
+		<property name="deptName" value="测试部"></property>
+		<property name="emps" ref="singleList">
+			<!-- 构造一个list对象 -->
+		<!-- 	<list>
+				<ref bean="employee"/>
+				<ref bean="employee1"/>
+				<ref bean="employee2"/> -->
+				<!-- <bean></bean> 使用内部bean重新定义一个bean -->
+			<!-- </list> -->
+			
+			<!-- <set>
+				<ref bean="employee"/>
+				<ref bean="employee1"/>
+				<ref bean="employee2"/>
+			</set> -->
+		</property>
+	</bean>
+	
+	<bean id="dept3" class="com.atgguigu.spring.di.Department">
+		<property name="id" value="5"></property>
+		<property name="deptName" value="财务部"></property>
+		<property name="mapEmps">
+			<!-- 构造一个map对象 -->
+			<map>
+				<entry key="AA"  value-ref="employee3"> </entry>
+				<entry key="BB" value-ref="employee4"></entry>
+			</map>
+		
+		</property>
+	</bean>
+	
+	<!-- 集合Bean -->
+	<util:list id="singleList">
+		<ref bean="employee"/>
+		<ref bean="employee1"/>
+		<ref bean="employee2"/>
+	</util:list>
+	
+	<!-- 使用p命名空间 -->
+	<bean id="employee6" class="com.atgguigu.spring.di.Employee" 
+	  p:id="1007" p:lastName="张宇老师" p:email="zy@atguigu.com" p:age="30" p:salary="10000"
+	  p:dept-ref="dept3">
+	</bean>
+	
+</beans>

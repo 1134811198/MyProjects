@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.atguigu.springmvc.beans&apos; to &apos;Spring06_exec_02/src&apos;&#x0D;&#x0A;- Original project: &apos;Spring05_exec_01&apos;&#x0D;&#x0A;- Destination element: &apos;Spring06_exec_02/src&apos;&#x0D;&#x0A;- Original element: &apos;Spring05_exec_01/src/com.atguigu.springmvc.beans&apos;" description="Copy package" destination="=Spring06_exec_02/src" element1="/src&lt;com.atguigu.springmvc.beans" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1523776003443" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+package com.atguigu.bookstore.servlet;
+
+public class BookManagerServlet extends BaseServlet {
+
+	private static final long serialVersionUID = 1L;
+	
+	private BookService bookService = new BookServiceImpl();
+	
+	//获取所有图书
+	protected void getBooks(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//调用bookService中获取所有图书的方法
+		List<Book> books = bookService.getBooks();
+		//将books放到request域中
+		request.setAttribute("books", books);
+		//转发到显示所有图书的页面
+		request.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(request, response);
+	}
+
+}

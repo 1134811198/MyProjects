@@ -1,0 +1,8 @@
+package com.atguigu.atcrowdfunding.controller;
+
+import java.util.Map;
+
+public class BaseController {
+  
+	private ThreadLocal<Map<String,Object>> threadLocal=new ThreadLocal();
+}

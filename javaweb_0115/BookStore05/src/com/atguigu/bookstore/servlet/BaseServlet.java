@@ -1,0 +1,56 @@
+package com.atguigu.bookstore.servlet;
+
+import java.io.IOException;
+import java.lang.reflect.Method;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public abstract class BaseServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// 以下操作必须在第一次获取请求参数之前
+//		request.setCharacterEncoding("UTF-8");
+		// 获取methodName这个请求参数
+		String methodName = request.getParameter("methodName");
+		// System.out.println(methodName);
+		// if ("login".equals(methodName)) {
+		// // 证明在登录，调用login方法
+		// login(request, response);
+		// } else if ("regist".equals(methodName)) {
+		// // 证明在注册，调用regist方法
+		// regist(request, response);
+		// }
+		try {
+			// 1.获取方法对象
+			/*
+			 * getDeclaredMethod()方法中需要传入两个参数 第一个参数是要调用的方法的方法名 第二个参数是要调用的方法中需要传入的参数的类型
+			 */
+			Method method = this.getClass().getDeclaredMethod(methodName, HttpServletRequest.class,
+					HttpServletResponse.class);
+			// 2.设置访问权限
+			method.setAccessible(true);
+			// 3.执行方法
+			/*
+			 * invoke()方法中需要传入两个参数 第一个参数是要调用那个对象的方法 第二个参数是调用方法时需要传入的参数
+			 */
+			method.invoke(this, request, response);
+		} catch (Exception e) {
+//			e.printStackTrace();
+			throw new RuntimeException(e);
+		}
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
+}

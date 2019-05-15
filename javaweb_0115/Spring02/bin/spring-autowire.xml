@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Address -->
+	<bean id="address1" class="com.atguigu.spring.autowire.Address">
+		<property name="province" value="山西省"></property>
+		<property name="city" value="太原市"></property>
+	</bean>
+	
+	<bean id="address2" class="com.atguigu.spring.autowire.Address">
+		<property name="province" value="山西省"></property>
+		<property name="city" value="吕梁市"></property>
+	</bean>
+	<!-- Car  -->
+	<bean id="car" class="com.atguigu.spring.autowire.Car">
+		<property name="brand" value="奥迪"></property>
+		<property name="price" value="400000"></property>
+	</bean>
+	
+	<!-- Person  
+		自动装配:
+			byName: 通过Bean的属性名进行装配.  使用Bean对象的属性名，（例如Person类中的 address、car) 到
+			        IOC容器中与<bean>的id进行匹配,如果匹配到，则装配成功. 
+			byType: 通过Bean的属性的类型进行装配。  使用Bean对象的属性的类型 到 IOC容器中与<bean>的class进行匹配. 
+					如果能唯一匹配，则装配成功， 如果匹配到多个兼容类型的bean, 则抛出异常 .
+	-->
+	<bean id="person" class="com.atguigu.spring.autowire.Person" autowire="byType">
+		<property name="name" value="许刚"></property>
+		<!-- <property name="address" ref="address"></property>
+		<property name="car" ref="car"></property> -->
+	</bean>
+
+</beans>

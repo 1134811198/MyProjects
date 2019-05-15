@@ -1,0 +1,18 @@
+package com.atguigu.bookstore.dao;
+
+import java.util.List;
+
+import com.atguigu.bookstore.beans.Book;
+
+public interface BookDao {
+
+	/**
+	 * 从数据库中查询出所有的图书
+	 * 
+	 * @return
+	 */
+	List<Book> getBooks();
+    
+	void saveBook(Book book);
+
+}

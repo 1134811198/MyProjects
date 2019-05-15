@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <context-param>
+    <param-name>encoding</param-name>
+    <param-value>UTF-8</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/MyFirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MyServletConfig</servlet-name>
+    <servlet-class>com.atguigu.servlet.MyServletConfig</servlet-class>
+    <init-param>
+      <param-name>user</param-name>
+      <param-value>admin</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServletConfig</servlet-name>
+    <url-pattern>/MyServletConfig</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AutoServelet</display-name>
+    <servlet-name>AutoServelet</servlet-name>
+    <servlet-class>com.atguigu.servlet.AutoServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AutoServelet</servlet-name>
+    <url-pattern>/AutoServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ReqRegServlet</display-name>
+    <servlet-name>ReqRegServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet.ReqRegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReqRegServlet</servlet-name>
+    <url-pattern>/ReqRegServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

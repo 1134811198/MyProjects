@@ -1,0 +1,30 @@
+package com.atguigu.mybatis.test;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Test;
+
+import com.atguigu.mybatis.beans.Employee;
+
+public class TestMybatis {
+	@Test
+	public void test() throws Exception {
+		String resource = "mybatis-config.xml";
+		InputStream inputStream = Resources.getResourceAsStream(resource); 
+		SqlSessionFactory sqlSessionFactory = 
+				new SqlSessionFactoryBuilder().build(inputStream);
+		System.out.println(sqlSessionFactory);
+		SqlSession session = sqlSessionFactory.openSession(); 
+		try {  
+			Employee employee = session.selectOne("suibian.selectEmployee", 101);
+			} 
+		finally {  session.close(); }
+
+	}
+
+}

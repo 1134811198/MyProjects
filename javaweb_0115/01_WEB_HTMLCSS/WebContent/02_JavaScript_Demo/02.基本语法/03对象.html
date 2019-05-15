@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>对象</title>
+<script type="text/javascript">
+var obj1=new Object();
+obj1.username="范冰冰";
+obj1.age=38;
+function info(){
+	alert("我是"+this.username+",今年"+this.age);
+}
+obj1.intro=info;
+obj1.intro();
+var obj2={
+		username:"刘诗诗",
+		age:18,
+		introduce:info
+};
+alert(obj2.username);
+obj2.introduce();
+</script>
+</head>
+<body>
+
+</body>
+</html>
